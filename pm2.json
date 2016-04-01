@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "name": "thinkjs_es7",
+    "script": "www/production.js",
+    "cwd": "/Users/leiquan/Desktop/2016 work space/git code/thinkjs_es7",
+    "exec_mode": "cluster",
+    "instances": 0,
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}

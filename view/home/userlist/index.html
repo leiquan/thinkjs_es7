@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New ThinkJS Application</title>
+
+</head>
+<body>
+
+<h3><%= title %></h3>
+
+你好,这里是用户列表页,<a href="/index.html">首页</a>
+
+<%list.forEach(function(item){%>
+
+<li>
+    <a href="/userdetail/<%=item.id%>.html"><%=item.username%></a> <a href="/userdelete/<%=item.id%>.html"> 删除</a>
+</li>
+
+<%})%>
+
+</body>
+</html>
